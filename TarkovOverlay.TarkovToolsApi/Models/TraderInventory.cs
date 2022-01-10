@@ -1,5 +1,5 @@
 ﻿using System.Text.Json.Serialization;
-using TarkovOverlay.TarkovToolsApi.Enums;
+using TarkovOverlay.Core.Enums;
 using TarkovOverlay.TarkovToolsApi.Internal;
 
 namespace TarkovOverlay.TarkovToolsApi.Models

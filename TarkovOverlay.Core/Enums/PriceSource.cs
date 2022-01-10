@@ -1,7 +1,7 @@
 ﻿// ReSharper disable IdentifierTypo
-namespace TarkovOverlay.TarkovToolsApi.Enums
+namespace TarkovOverlay.Core.Enums
 {
-    public enum TraderName
+    public enum PriceSource
     {
         Prapor,
         Therapist,

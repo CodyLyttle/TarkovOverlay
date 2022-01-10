@@ -1,6 +1,5 @@
-using System.Data;
 using System.Data.SQLite;
-using System.IO;
+using TarkovOverlay.Core;
 
 namespace TarkovOverlay.DataAccess
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TarkovOverlay.DataAccess
+namespace TarkovOverlay.Core
 {
     public interface IRepository : IDisposable
     {

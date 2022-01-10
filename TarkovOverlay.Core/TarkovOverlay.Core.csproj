@@ -6,8 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\TarkovOverlay.Core\TarkovOverlay.Core.csproj" />
-    </ItemGroup>
-
 </Project>

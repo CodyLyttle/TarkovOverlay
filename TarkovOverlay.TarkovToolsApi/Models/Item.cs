@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using TarkovOverlay.TarkovToolsApi.Enums;
+using TarkovOverlay.Core.Enums;
 using TarkovOverlay.TarkovToolsApi.Internal;
 
 namespace TarkovOverlay.TarkovToolsApi.Models
@@ -53,8 +53,8 @@ namespace TarkovOverlay.TarkovToolsApi.Models
         public string GridImageLinkFallback { get; set; }
 
         [JsonPropertyName("types")]
-        [JsonConverter(typeof(JsonStringArrayToEnumListConverter<ItemType>))]
-        public List<ItemType> Types { get; set; }
+        [JsonConverter(typeof(JsonStringArrayToEnumListConverter<ItemTag>))]
+        public List<ItemTag> Types { get; set; }
 
         [JsonPropertyName("avg24hPrice")]
         public int? Avg24hPrice { get; set; }
@@ -101,6 +101,13 @@ namespace TarkovOverlay.TarkovToolsApi.Models
         [JsonPropertyName("buyFor")]
         public ItemPrice[] BuyFor { get; set; }
 
+        [JsonPropertyName("containsItems")]
+        public ContainedItem[] ContainsItem { get; set; }
+    }
+
+    public class Delete
+    {
+      
         [JsonPropertyName("containsItems")]
         public ContainedItem[] ContainsItem { get; set; }
     }

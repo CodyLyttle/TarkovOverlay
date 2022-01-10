@@ -4,7 +4,8 @@ using System.IO;
 using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
-using TarkovOverlay.TarkovToolsApi.Enums;
+using TarkovOverlay.Core.Dto;
+using TarkovOverlay.Core.Enums;
 using TarkovOverlay.TarkovToolsApi.Internal;
 using TarkovOverlay.TarkovToolsApi.Models;
 
@@ -20,14 +21,15 @@ namespace TarkovOverlay.TarkovToolsApi
             HttpClient = httpClient;
         }
 
-        public async Task<List<Item>> GetItemsByType(ItemType type)
+        public async Task<List<TarkovOverlay.Core.Dto.Item>> GetItemsByType(ItemTag tag)
         {
-            string typeParam = HttpRequestHelper.GetEnumString(type);
+            string typeParam = HttpRequestHelper.GetEnumString(tag);
             HttpRequestMessage request = HttpRequestHelper.BuildRequest(
                 $"{{itemsByType(type: {typeParam}){QueryConstants.RequestAllItemProperties}");
 
             var response = await FetchAndDeserialize<GetItemsByTypeResponse>(request);
-            return response.Data.ItemsByType;
+            // TODO: Convert to DTO
+            throw new NotImplementedException();
         }
 
         private async Task<T> FetchAndDeserialize<T>(HttpRequestMessage request)
