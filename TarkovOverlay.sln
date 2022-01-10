@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarkovOverlay.TarkovToolsApi", "TarkovOverlay.TarkovToolsApi\TarkovOverlay.TarkovToolsApi.csproj", "{5DD21422-DC6A-41BD-9555-B963D18483E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarkovOverlay.TarkovToolsApi.Tests", "TarkovOverlay.TarkovToolsApi.Tests\TarkovOverlay.TarkovToolsApi.Tests.csproj", "{56925BB9-BB2F-4528-8002-5B583A7D6DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarkovOverlay.DataAccess", "TarkovOverlay.DataAccess\TarkovOverlay.DataAccess.csproj", "{079E482C-7C2F-4C72-9134-F2CA63D76239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarkovOverlay.DataAccess.Tests", "TarkovOverlay.DataAccess.Tests\TarkovOverlay.DataAccess.Tests.csproj", "{27598D2B-419A-4A52-B3DA-B095199CD9F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD21422-DC6A-41BD-9555-B963D18483E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD21422-DC6A-41BD-9555-B963D18483E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD21422-DC6A-41BD-9555-B963D18483E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD21422-DC6A-41BD-9555-B963D18483E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56925BB9-BB2F-4528-8002-5B583A7D6DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56925BB9-BB2F-4528-8002-5B583A7D6DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56925BB9-BB2F-4528-8002-5B583A7D6DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56925BB9-BB2F-4528-8002-5B583A7D6DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079E482C-7C2F-4C72-9134-F2CA63D76239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079E482C-7C2F-4C72-9134-F2CA63D76239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079E482C-7C2F-4C72-9134-F2CA63D76239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079E482C-7C2F-4C72-9134-F2CA63D76239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27598D2B-419A-4A52-B3DA-B095199CD9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27598D2B-419A-4A52-B3DA-B095199CD9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27598D2B-419A-4A52-B3DA-B095199CD9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27598D2B-419A-4A52-B3DA-B095199CD9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
